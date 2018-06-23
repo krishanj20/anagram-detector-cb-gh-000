@@ -17,12 +17,12 @@ class Anagram
           counter += 1
           puts counter
         end
-      if counter == letter.size
-        matches << word
-        counter = 0
-      else
-        counter = 0
       end
+    if counter == letter.size
+      matches << word
+      counter = 0
+    else
+      counter = 0
     end
   end
   matches
