@@ -31,5 +31,5 @@ end
 
 end
 
-songa = Song.new(bleh)
-songa.match([blhe])
+songa = Song.new("bleh")
+songa.match(["blhe"])
