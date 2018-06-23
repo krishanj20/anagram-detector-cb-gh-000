@@ -7,7 +7,7 @@ class Anagram
 
   def match(array)
     matches = []
-    letters = @word.split()
+    letters = @word.split("")
     array.each do |word|
       letters_a = word.split
       counter = 0
