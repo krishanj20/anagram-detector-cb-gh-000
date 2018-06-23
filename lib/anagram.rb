@@ -17,7 +17,7 @@ class Anagram
           counter += 1
         end
       end
-      if counter == @word.length
+      if counter == anagram.length
         matches << anagram
       end
     end
@@ -26,5 +26,5 @@ class Anagram
 
 end
 
-songa = Anagram.new("bleh")
+songa = Anagram.new("ab")
 songa.match(["blhe"])
