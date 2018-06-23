@@ -12,6 +12,7 @@ class Anagram
       letters_a = word.split
       counter = 0
       letters_a.each do |letter|
+        puts "working"
         if letters.include?(letter)
           letters -= [letter]
           counter += 1
