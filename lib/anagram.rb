@@ -13,7 +13,7 @@ class Anagram
       counter = 0 #checking each word
       split_anagram.each do |letter|
         if split_word.include?(letter)
-          split_word.delete(letter)
+          split_word -= [letter]
           counter += 1
         end
       end
