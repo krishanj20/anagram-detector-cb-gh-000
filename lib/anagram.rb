@@ -30,3 +30,6 @@ class Anagram
 end
 
 end
+
+songa = Song.new(bleh)
+songa.match([blhe])
