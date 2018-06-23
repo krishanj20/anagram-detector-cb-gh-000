@@ -7,8 +7,8 @@ class Anagram
 
   def match(array) #array is the list of words which could be an anagrams
     matches = []
+    split_word = @word.split("")
     array.each do |anagram| #gets each word in the list
-      split_word = @word.split("")
       split_anagram = anagram.split("")
       counter = 0 #checking each word
       split_anagram.each do |letter|
