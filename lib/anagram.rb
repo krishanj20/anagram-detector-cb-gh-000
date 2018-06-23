@@ -9,10 +9,11 @@ class Anagram
     matches = []
     letters = @word.split("")
     array.each do |word|
-      letters_a = word.split
+      letters_a = word.split("")
       counter = 0
       letters_a.each do |letter|
         puts letters
+        puts letters_a
         if letters.include?(letter) #this line doesnt work
           letters -= [letter]
           counter += 1
