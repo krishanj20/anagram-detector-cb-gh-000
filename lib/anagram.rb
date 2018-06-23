@@ -17,7 +17,7 @@ class Anagram
           counter += 1
         end
       end
-      if count == @word.length
+      if counter == @word.length
         matches << anagram
       end
     end
