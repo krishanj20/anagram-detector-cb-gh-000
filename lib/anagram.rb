@@ -6,14 +6,14 @@ class Anagram
   end
 
   def match(array)
-    matches = ["a","b"]
+    matches = []
     letters = @word.split
     array.each do |word|
       letters_a = word.split
       counter = 0
       letters_a.each do |letter|
-        puts "working"
-        if matches.include?(letter) #this line doesnt work
+        puts letters
+        if letters.include?(letter) #this line doesnt work
           letters -= [letter]
           counter += 1
           puts counter
